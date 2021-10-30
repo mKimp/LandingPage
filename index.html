@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@500&family=Zen+Antique&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 mt-5">
+              <small>
+                STARTS ON
+                <time datetime="2021-11-03 10:00"
+                  >NOV 03,2021 AT 10:00AM PDT
+                </time>
+              </small>
+              <h1 class="title-banner">
+                Create standout <br />
+                virtual events, <br />
+                minus the cost and <br />
+                stress.
+              </h1>
+              <p>
+                Learn how to create immersive, visually stunning virtual <br />
+                experiences where your video content is the centerpiece.
+              </p>
+              <ul>
+                <li class="timer">
+                  <span class="counter" id="days">30</span>days
+                </li>
+                <li class="colon">:</li>
+                <li class="timer">
+                  <span class="counter" id="hours">24</span>hours
+                </li>
+                <li class="colon">:</li>
+                <li class="timer">
+                  <span class="counter" id="minutes">60</span>minutes
+                </li>
+                <li class="colon">:</li>
+                <li class="timer">
+                  <span class="counter" id="seconds">24</span>seconds
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img
+                src="/assets/gabi.png"
+                class="img-fluid banner-image"
+                alt="wow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-1 container-fluid speakers">
+        <!--Speaker Intro-->
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12">
+            <small><strong>OUR SPEAKER</strong></small>
+            <h3><strong>Meet Your Event Experts</strong></h3>
+            <p>
+              Brandlive's line-up of creative leaders are here to help make your
+              <br />
+              biggest event dreames become a reality
+            </p>
+          </div>
+        </div>
+        <!--Speaker Cards -->
+        <div class="row">
+          <!-- Modal -->
+          <div
+            class="modal"
+            id="Mymodal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="Mymodal"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLabel">Modal title</h5>
+                </div>
+                <div class="modal-body" id="ModalBody"></div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    id="closeModalButton"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <div class="cards">
+              <div class="d-flex flex-row justify-content-center flex-wrap">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="./assets/firstSpeaker.jpg"
+                    class="card-img-top"
+                    alt="Sam Kolbert-Hyle"
+                    id="Sam"
+                  />
+                  <div class="card-body">
+                    <h4>Sam Kolbert-Hyle</h4>
+                    <h6>President & CEO of BrandLive</h6>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#Sam" id="SamInfo">More Info</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="./assets/secondSpeaker.jpg"
+                    class="card-img-top"
+                    alt="Thomas Iwasaki"
+                    id="thomas"
+                  />
+                  <div class="card-body">
+                    <h4>Thomas Iwasaki</h4>
+                    <h6>Chief Product Officer</h6>
+                    <p class="card-text">
+                      Thomas expertly leads all marketing and communication
+                      efforts, as well as the product...
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#thomas" id="thomasInfo">More Info</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="./assets/thirdSpeaker.jpg"
+                    class="card-img-top"
+                    alt="Gabi Hague"
+                    id="gabi"
+                  />
+                  <div class="card-body">
+                    <h4>Gabi Hague</h4>
+                    <h6>Product Marketing Manager</h6>
+                    <p class="card-text">FPO.</p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#gabi" id="gabiInfo">More Info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section 2-->
+      <section class="section-2 container-fluid products">
+        <!--Speaker Intro-->
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <small><strong>OUR PRODUCT</strong></small>
+            <h1>FPO Title</h1>
+            <p>
+              Good descriptive writing creates an impression in the reader's
+              mind of an event, a <br />
+              place, a person, or a thing that will set a mood.
+            </p>
+          </div>
+        </div>
+        <div class="video-row">
+          <div class="col-md-12 col-sm-12">
+            <div class="videoWrapper">
+              <!-- Copy & Pasted from YouTube -->
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/w1OBCLH79Sc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <h6>OUR HAPPY CUSTOMERS</h6>
+            <h1>Words That Make Us Blush</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 mt-3">
+            <div
+              class="
+                d-flex
+                flex-row
+                justify-content-center
+                flex-wrap
+                brand-images
+              "
+            >
+              <img
+                class="img-fluid"
+                src="./assets/addidas.png"
+                alt="addidas logo"
+              />
+              <img
+                class="img-fluid"
+                src="./assets/herbal.png"
+                alt="herballife nutrition logo"
+              />
+              <img
+                class="img-fluid"
+                src="./assets/levil.png"
+                alt="levi's logo"
+              />
+              <img
+                class="img-fluid"
+                src="./assets/kohler.png"
+                alt="kohler logo"
+              />
+              <img
+                class="img-fluid"
+                src="./assets/gopro.png"
+                alt="gopro logo"
+              />
+              <img
+                class="img-fluid"
+                src="./assets/mered.png"
+                alt="meredith logo"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="
+              d-flex
+              flex-row
+              justify-content-evenly
+              flex-wrap
+              policy-container
+            "
+          >
+            <div class="brandlive-logo">
+              <img src="/assets/brandlive.png" alt="brandlive-logo" />
+            </div>
+
+            <div
+              class="
+                policy
+                justify-content-evenly
+                d-flex
+                flex-row
+                align-items-center
+              "
+            >
+              <small>TERMS AND CONDITIONS</small>
+              <small>PRIVACY POLICY</small>
+            </div>
+
+            <div class="brandlive-streaming">
+              <img src="/assets/streaming.png" alt="brandlive-streaming-logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

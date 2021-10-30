@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+small {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+p {
+  font-weight: 580;
+  letter-spacing: 0.01em;
+}
+header {
+  background-image: url("assets/banner.png");
+}
+.speakers {
+  background-image: url("./assets/teardrop.png");
+}
+.speakers > .row {
+  padding-top: 55px;
+}
+.banner-image {
+  margin-top: -2.5rem !important;
+}
+.title-banner {
+  color: white;
+}
+
+.card {
+  margin: 8px !important;
+  border: none;
+  background-color: #f6d974 !important;
+}
+
+.card > img {
+  border-radius: 10px;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-top: 15px;
+  background-color: #f6d974;
+}
+.products {
+  background-image: url("./assets/yellowdrip.png");
+}
+
+.products > .row {
+  padding-top: 105px;
+}
+.video-row {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 10px 100px 10px;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.2%; /* 16:9 */
+  height: 0;
+  width: 100%;
+}
+.videoWrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-image: url("./assets/pinkDrip.png");
+  padding: 100px 0 0 0;
+}
+
+footer img {
+  width: 170px;
+}
+
+.policy-container {
+  margin: 120px 0 50px 0px;
+}
+
+.policy small {
+  padding: 10px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.colon {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 29px;
+  color: white;
+  font-weight: lighter;
+}
+.timer {
+  color: white;
+}
+
+.counter {
+  font-size: 32px;
+  display: block;
+  color: black;
+  font-weight: bold;
+}
