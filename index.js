@@ -1,5 +1,5 @@
+/* Count down timer function */
 const dateOfEvent = new Date("November 6, 2021 01:09:00").getTime();
-
 const timer = () => {
   const now = new Date().getTime();
 

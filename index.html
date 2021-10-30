@@ -21,13 +21,15 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <title>Hello, world!</title>
+    <title>WOW, BrandLive!</title>
   </head>
   <body>
+    <!--HERO BANNER -->
     <header>
       <div class="container-fluid">
         <div class="container">
           <div class="row">
+            <!-- LEFT COLUMN SHOWS EVENT INFO -->
             <div class="col-md-6 col-sm-12 mt-5">
               <small>
                 STARTS ON
@@ -45,6 +47,7 @@
                 Learn how to create immersive, visually stunning virtual <br />
                 experiences where your video content is the centerpiece.
               </p>
+              <!-- LEFT COLUMN SHOWS COUNT DOWN TIMER -->
               <ul>
                 <li class="timer">
                   <span class="counter" id="days">30</span>days
@@ -63,6 +66,7 @@
                 </li>
               </ul>
             </div>
+            <!-- RIGHT COLUMN SHOW THE WOW IMAGE -->
             <div class="col-md-6 col-sm-12">
               <img
                 src="/assets/gabi.png"
@@ -74,9 +78,13 @@
         </div>
       </div>
     </header>
+    <!--MAIN SECTION CONTAINS 2 SECTIONS:
+      1/ SPEAKERS INFO AND SPEAKER CARDS
+      2/ VIDEO INFO AND VIDEO LINK
+    -->
     <main>
+      <!-- SECTION 1: SPEAKERS INFO -->
       <section class="section-1 container-fluid speakers">
-        <!--Speaker Intro-->
         <div class="row text-center">
           <div class="col-md-12 col-sm-12">
             <small><strong>OUR SPEAKER</strong></small>
@@ -88,9 +96,8 @@
             </p>
           </div>
         </div>
-        <!--Speaker Cards -->
         <div class="row">
-          <!-- Modal -->
+          <!-- MODAL. THE INFO IN THIS MODAL IS DYNAMICALLY CHANGED BASED ON USER'S CLICK ON IMAGES OR LINKS -->
           <div
             class="modal"
             id="Mymodal"
@@ -118,6 +125,7 @@
               </div>
             </div>
           </div>
+          <!--SECTION 1 : SPEAKER CARDS-->
           <div class="col-md-12 col-sm-12">
             <div class="cards">
               <div class="d-flex flex-row justify-content-center flex-wrap">
@@ -134,10 +142,8 @@
                     <p class="card-text">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
+                      <a href="#Sam" id="SamInfo">Read more</a>
                     </p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#Sam" id="SamInfo">More Info</a>
                   </div>
                 </div>
                 <div class="card" style="width: 18rem">
@@ -153,10 +159,8 @@
                     <p class="card-text">
                       Thomas expertly leads all marketing and communication
                       efforts, as well as the product...
+                      <a href="#thomas" id="thomasInfo">Read more</a>
                     </p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#thomas" id="thomasInfo">More Info</a>
                   </div>
                 </div>
                 <div class="card" style="width: 18rem">
@@ -169,10 +173,9 @@
                   <div class="card-body">
                     <h4>Gabi Hague</h4>
                     <h6>Product Marketing Manager</h6>
-                    <p class="card-text">FPO.</p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#gabi" id="gabiInfo">More Info</a>
+                    <p class="card-text">
+                      FPO. <a href="#gabi" id="gabiInfo">Read more</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -180,9 +183,8 @@
           </div>
         </div>
       </section>
-      <!--Section 2-->
+      <!--SECTION 2 VIDEO INFO -->
       <section class="section-2 container-fluid products">
-        <!--Speaker Intro-->
         <div class="row">
           <div class="col-md-12 col-sm-12 text-center">
             <small><strong>OUR PRODUCT</strong></small>
@@ -194,10 +196,10 @@
             </p>
           </div>
         </div>
+        <!--SECTION 2 VIDEO LINK FROM YOUTUBE -->
         <div class="video-row">
           <div class="col-md-12 col-sm-12">
             <div class="videoWrapper">
-              <!-- Copy & Pasted from YouTube -->
               <iframe
                 width="560"
                 height="315"
@@ -212,16 +214,17 @@
         </div>
       </section>
     </main>
-
+    <!--FOOTER -->
     <footer>
       <div class="container-fluid">
+        <!--FOOTER INFO-->
         <div class="row">
           <div class="col-md-12 col-sm-12 text-center">
             <h6>OUR HAPPY CUSTOMERS</h6>
             <h1>Words That Make Us Blush</h1>
           </div>
         </div>
-
+        <!--FOOTER BRAND IMAGES-->
         <div class="row">
           <div class="col-md-12 col-sm-12 mt-3">
             <div
@@ -266,7 +269,7 @@
             </div>
           </div>
         </div>
-
+        <!--FOOTER BRANDLIVE IMAGE AND POLICY-->
         <div class="row">
           <div
             class="
@@ -306,7 +309,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
     <script src="index.js"></script>
   </body>
 </html>

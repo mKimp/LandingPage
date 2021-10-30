@@ -1,3 +1,4 @@
+/* General css for the whole file */
 * {
   box-sizing: border-box;
 }
@@ -16,78 +17,13 @@ p {
   font-weight: 580;
   letter-spacing: 0.01em;
 }
+
+/* Banner - BackgroundImage */
 header {
   background-image: url("assets/banner.png");
 }
-.speakers {
-  background-image: url("./assets/teardrop.png");
-}
-.speakers > .row {
-  padding-top: 55px;
-}
-.banner-image {
-  margin-top: -2.5rem !important;
-}
-.title-banner {
-  color: white;
-}
 
-.card {
-  margin: 8px !important;
-  border: none;
-  background-color: #f6d974 !important;
-}
-
-.card > img {
-  border-radius: 10px;
-}
-
-.card-body {
-  padding-left: 0;
-  padding-top: 15px;
-  background-color: #f6d974;
-}
-.products {
-  background-image: url("./assets/yellowdrip.png");
-}
-
-.products > .row {
-  padding-top: 105px;
-}
-.video-row {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px 10px 100px 10px;
-}
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.2%; /* 16:9 */
-  height: 0;
-  width: 100%;
-}
-.videoWrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-footer {
-  background-image: url("./assets/pinkDrip.png");
-  padding: 100px 0 0 0;
-}
-
-footer img {
-  width: 170px;
-}
-
-.policy-container {
-  margin: 120px 0 50px 0px;
-}
-
-.policy small {
-  padding: 10px;
-}
-
+/* Banner - Count Down Timer */
 ul {
   padding: 0px;
   list-style: none;
@@ -115,4 +51,80 @@ ul li {
   display: block;
   color: black;
   font-weight: bold;
+}
+
+/* Main - Section 1: Speakers's intro */
+.speakers {
+  background-image: url("./assets/teardrop.png");
+}
+.speakers > .row {
+  padding-top: 55px;
+}
+.banner-image {
+  margin-top: -2.5rem !important;
+}
+.title-banner {
+  color: white;
+}
+
+/* Main - Section 1: Speakers's cards */
+.card {
+  margin: 8px !important;
+  border: none;
+  background-color: #f6d974 !important;
+}
+
+.card > img {
+  border-radius: 10px;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-top: 15px;
+  background-color: #f6d974;
+}
+
+/* Main - Section 2: Product's intro */
+.products {
+  background-image: url("./assets/yellowdrip.png");
+}
+
+.products > .row {
+  padding-top: 105px;
+}
+
+/* Main - Section 2: Video link */
+.video-row {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 10px 100px 10px;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.2%;
+  height: 0;
+  width: 100%;
+}
+.videoWrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+footer {
+  background-image: url("./assets/pinkDrip.png");
+  padding: 100px 0 0 0;
+}
+/* Footer Images*/
+footer img {
+  width: 170px;
+}
+/* Footer Policy */
+.policy-container {
+  margin: 120px 0 50px 0px;
+}
+
+.policy small {
+  padding: 10px;
 }
