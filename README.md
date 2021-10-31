@@ -15,8 +15,8 @@
   - Link out to any video
 4. Sponsor/footer
   - Show all event sponsors on the page. 
-5.Mobile responsive
-  - Make it work on mobile and tablet
+5. Mobile responsive
+  - It works on mobile and tablet
 
 ## There are two ways to test this landing page:
 1/ Please visit the hosted link [https://mkimp.github.io/LandingPage/]
