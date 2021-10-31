@@ -17,8 +17,10 @@
   - [x] Show all event sponsors on the page. 
 5. Mobile responsive
   - [x] It works on mobile and tablet
+6. [x] Logo, Terms and Condition, and Policy are clickable.
+7. [x] Add meta description tag for improving SEO.
 
 ## There are two ways to test this landing page
 1. Please visit the hosted link [https://mkimp.github.io/LandingPage/]
-2. Use the terminal and type in git clone [https://github.com/mKimp/LandingPage.git] 
+2. Use the terminal and type in 'git clone [https://github.com/mKimp/LandingPage.git]'
       - After git clone, go to the cloned folder and click on index.html
