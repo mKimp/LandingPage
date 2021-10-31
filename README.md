@@ -2,21 +2,21 @@
 ## Contents
 
 1. Hero Banner
-  - Image
-  - Information about the event
-  - Create a countdown timer to the event
+  - [x] Image
+  - [x] Information about the event
+  - [x] Create a countdown timer to the event
 2. Speakers with bio (3 speakers)
-  - Image
-  - Name
-  - Description
-  - Make it onclick to open a popup modal with more information.
-    - Both images and the links elements are clickable. 
+  - [x] Image
+  - [x] Name
+  - [x] Description
+  - [x] Make it onclick to open a popup modal with more information.
+    - [x] Both images and the "read more" links elements are clickable. 
 3. Video
-  - Link out to any video
+  - [x] Link out to any video
 4. Sponsor/footer
-  - Show all event sponsors on the page. 
+  - [x] Show all event sponsors on the page. 
 5. Mobile responsive
-  - It works on mobile and tablet
+  - [x] It works on mobile and tablet
 
 ## There are two ways to test this landing page
 1. Please visit the hosted link [https://mkimp.github.io/LandingPage/]
