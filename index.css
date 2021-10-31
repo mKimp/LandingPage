@@ -23,6 +23,13 @@ header {
   background-image: url("assets/banner.png");
 }
 
+.banner-image {
+  margin-top: -2.5rem !important;
+}
+.title-banner {
+  color: white;
+}
+
 /* Banner - Count Down Timer */
 ul {
   padding: 0px;
@@ -60,12 +67,6 @@ ul li {
 .speakers > .row {
   padding-top: 55px;
 }
-.banner-image {
-  margin-top: -2.5rem !important;
-}
-.title-banner {
-  color: white;
-}
 
 /* Main - Section 1: Speakers's cards */
 .card {
@@ -76,12 +77,23 @@ ul li {
 
 .card > img {
   border-radius: 10px;
+  height: 200px;
 }
 
 .card-body {
   padding-left: 0;
   padding-top: 15px;
   background-color: #f6d974;
+}
+
+.button-link {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  font-family: arial, sans-serif;
+  color: rgb(28, 47, 218);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* Main - Section 2: Product's intro */
