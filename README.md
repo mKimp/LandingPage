@@ -17,8 +17,9 @@
   - [x] Show all event sponsors on the page. 
 5. Mobile responsive
   - [x] It works on mobile and tablet.
-6. [x] Logo, Terms and Condition, and Policy are clickable.
-7. [x] Add meta description tag for improving SEO.
+6. Extras
+  - [x] Logo, Terms and Condition, and Policy are clickable.
+  - [x] Add meta description tag for improving SEO.
 
 ## There are two ways to test this landing page
 1. Please visit the hosted link [https://mkimp.github.io/LandingPage/]
