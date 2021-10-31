@@ -18,7 +18,7 @@
 5. Mobile responsive
   - It works on mobile and tablet
 
-## There are two ways to test this landing page:
-1/ Please visit the hosted link [https://mkimp.github.io/LandingPage/]
-2/ Use the terminal and type in git clone [https://github.com/mKimp/LandingPage.git] 
+## There are two ways to test this landing page
+1. Please visit the hosted link [https://mkimp.github.io/LandingPage/]
+2. Use the terminal and type in git clone [https://github.com/mKimp/LandingPage.git] 
       - After git clone, click on index.html
