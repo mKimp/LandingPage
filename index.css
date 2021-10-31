@@ -135,9 +135,13 @@ footer img {
 }
 /* Footer Policy */
 .policy-container {
-  margin: 120px 0 50px 0px;
+  margin: 120px 0px 50px 0px;
 }
 
 .policy small {
   padding: 10px;
+}
+.policy a {
+  text-decoration: none;
+  color: black;
 }
