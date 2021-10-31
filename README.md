@@ -16,7 +16,7 @@
 4. Sponsor/footer
   - [x] Show all event sponsors on the page. 
 5. Mobile responsive
-  - [x] It works on mobile and tablet
+  - [x] It works on mobile and tablet.
 6. [x] Logo, Terms and Condition, and Policy are clickable.
 7. [x] Add meta description tag for improving SEO.
 
