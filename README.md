@@ -18,7 +18,7 @@
 5. Mobile responsive
   - [x] It works on mobile and tablet.
 6. Extras
-  - [x] Logo, Terms and Condition, and Policy are clickable.
+  - [x] Logo, Terms and Conditions, and Policy are clickable.
   - [x] Add meta description tag for improving SEO.
 
 ## There are two ways to test this landing page
