@@ -10,7 +10,7 @@
   - [x] Name
   - [x] Description
   - [x] Make it onclick to open a popup modal with more information.
-    - [x] Both images and the links elements are clickable. 
+    - [x] Both images and the "read more" links elements are clickable. 
 3. Video
   - [x] Link out to any video
 4. Sponsor/footer
